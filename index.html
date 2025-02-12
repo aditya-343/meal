@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Food Nutrition Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header-container">
+      <h1>Indian Food Nutrition Finder</h1>
+      <button id="darkModeToggle" class="theme-toggle">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+    <form id="foodForm">
+      <label for="foodItem">Search for an Indian Food Item:</label>
+      <input type="text" id="foodItem" placeholder="e.g., Butter Chicken" required>
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="nutritionInfo" class="nutrition-info"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
